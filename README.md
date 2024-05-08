@@ -1,5 +1,7 @@
 # Restaurant Recommender
 
+Collaborators: Lauren Hyde, Evan Lin
+
 ## To run the project:
 
 Run `npm i` to install the needed modules
