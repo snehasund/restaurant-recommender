@@ -1,6 +1,6 @@
 # Restaurant Recommender
 
-Collaborators: Lauren Hyde, Evan Lin
+Developers: Sneha Sundar, Lauren Hyde, Evan Lin
 
 ## To run the project:
 
