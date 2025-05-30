@@ -8,6 +8,8 @@ from settings import APP_KEY
 
 app = Flask(__name__)
 
+CORS(app, origins="http://localhost:5173", supports_credentials=True)
+
 app.config.update(
     SESSION_COOKIE_SECURE=True,
     SESSION_COOKIE_SAMESITE="None",
@@ -22,9 +24,3 @@ app.config["JWT_TOKEN_LOCATION"] = ["headers"]
 
 jwt = JWTManager(app)
 app.secret_key = APP_KEY
-
-CORS(
-    app,
-    supports_credentials=True,
-    resources={"/*": {"origins": "http://localhost:5173"}},
-)
