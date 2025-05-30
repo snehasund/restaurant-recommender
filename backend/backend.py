@@ -2,6 +2,7 @@
 import googlemaps # type: ignore
 import numpy as np # type: ignore
 from sklearn.cluster import KMeans # type: ignore
+import requests
 from settings import PLACES_API_KEY
 
 API_KEY = PLACES_API_KEY
